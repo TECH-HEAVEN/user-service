@@ -1,5 +1,6 @@
 package com.icebear2n2.userservice.domain.entity.user;
 
+import com.icebear2n2.userservice.domain.entity.UserWish;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,6 +11,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 
 @Entity
@@ -62,5 +64,7 @@ public class User {
     @Schema(description = "계정 삭제 시간")
     private Timestamp deletedAt;
 
+    @OneToMany(mappedBy = "user")
+    private List<UserWish> userWishes;
 
 }

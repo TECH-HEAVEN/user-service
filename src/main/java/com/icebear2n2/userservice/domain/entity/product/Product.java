@@ -1,6 +1,7 @@
 package com.icebear2n2.userservice.domain.entity.product;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.icebear2n2.userservice.domain.entity.UserWishProduct;
 import com.icebear2n2.userservice.domain.entity.cart.CartItem;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -41,4 +42,7 @@ public class Product {
 
     @OneToMany(mappedBy = "product")
     private List<CartItem> cartItems;
+
+    @OneToMany(mappedBy = "product")
+    private List<UserWishProduct> userWishProducts;
 }
