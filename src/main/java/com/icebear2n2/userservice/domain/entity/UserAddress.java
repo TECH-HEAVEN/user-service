@@ -22,8 +22,9 @@ public class UserAddress {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
-    private String receiverPhone;
     private String receiverName;
+    private String receiverPhone;
+
     private String postCode;
     private String address;
     private String addressDetail;
@@ -33,4 +34,27 @@ public class UserAddress {
     @UpdateTimestamp
     private Timestamp updatedAt;
 
+    public void setReceiverName(String receiverName) {
+        this.receiverName = receiverName;
+    }
+
+    public void setReceiverPhone(String receiverPhone) {
+        this.receiverPhone = receiverPhone;
+    }
+
+    public void setPostCode(String postCode) {
+        this.postCode = postCode;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setAddressDetail(String addressDetail) {
+        this.addressDetail = addressDetail;
+    }
+
+    public void setAddressExtra(String addressExtra) {
+        this.addressExtra = addressExtra;
+    }
 }
