@@ -1,7 +1,7 @@
 package com.icebear2n2.userservice.domain.entity.order;
 
 import com.icebear2n2.userservice.domain.entity.cart.CartItem;
-import com.icebear2n2.userservice.domain.entity.User;
+import com.icebear2n2.userservice.domain.entity.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
