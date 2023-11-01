@@ -3,7 +3,7 @@ package com.icebear2n2.userservice.UserAddress.service;
 import com.icebear2n2.userservice.domain.entity.user.User;
 import com.icebear2n2.userservice.domain.entity.UserAddress;
 import com.icebear2n2.userservice.domain.repository.UserAddressRepository;
-import com.icebear2n2.userservice.domain.repository.UserRepository;
+import com.icebear2n2.userservice.domain.repository.user.UserRepository;
 import com.icebear2n2.userservice.domain.request.UpdateUserAddressRequest;
 import com.icebear2n2.userservice.domain.request.UserAddressRequest;
 import com.icebear2n2.userservice.domain.response.UserAddressResponse;
