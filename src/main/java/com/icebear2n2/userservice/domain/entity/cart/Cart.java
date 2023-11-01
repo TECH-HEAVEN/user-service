@@ -1,5 +1,9 @@
 package com.icebear2n2.userservice.domain.entity.cart;
+<<<<<<< HEAD
 import com.icebear2n2.userservice.domain.entity.user.User;
+=======
+import com.icebear2n2.userservice.domain.entity.User;
+>>>>>>> origin/feature/address-info
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
