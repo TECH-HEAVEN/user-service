@@ -25,8 +25,9 @@ public class UserAddressResponse {
     public static class UserAddressData {
         private Long userAddressId;
         private Long userId;
-        private String receiverPhone;
         private String receiverName;
+        private String receiverPhone;
+
         private String postCode;
         private String address;
         private String addressDetail;
@@ -37,8 +38,8 @@ public class UserAddressResponse {
         public UserAddressData(UserAddress userAddress) {
             this.userAddressId = userAddress.getUserAddressId();
             this.userId = userAddress.getUser().getUserId();
-            this.receiverPhone = userAddress.getReceiverPhone();
             this.receiverName = userAddress.getReceiverName();
+            this.receiverPhone = userAddress.getReceiverPhone();
             this.postCode = userAddress.getPostCode();
             this.address = userAddress.getAddress();
             this.addressDetail = userAddress.getAddressDetail() != null ? userAddress.getAddressDetail() : null;
