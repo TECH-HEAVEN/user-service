@@ -1,4 +1,4 @@
-package com.icebear2n2.userservice.domain.repository;
+package com.icebear2n2.userservice.domain.repository.product;
 
 import com.icebear2n2.userservice.domain.entity.product.Product;
 import org.springframework.data.jpa.repository.JpaRepository;

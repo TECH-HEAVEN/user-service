@@ -1,4 +1,4 @@
-package com.icebear2n2.userservice.domain.repository;
+package com.icebear2n2.userservice.domain.repository.cart;
 
 import com.icebear2n2.userservice.domain.entity.cart.Cart;
 import com.icebear2n2.userservice.domain.entity.User;
