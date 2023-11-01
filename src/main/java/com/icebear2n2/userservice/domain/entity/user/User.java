@@ -1,4 +1,4 @@
-package com.icebear2n2.userservice.domain.entity;
+package com.icebear2n2.userservice.domain.entity.user;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;

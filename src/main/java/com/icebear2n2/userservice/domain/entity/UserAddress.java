@@ -1,5 +1,6 @@
 package com.icebear2n2.userservice.domain.entity;
 
+import com.icebear2n2.userservice.domain.entity.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

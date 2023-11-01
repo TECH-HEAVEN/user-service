@@ -1,6 +1,6 @@
 package com.icebear2n2.userservice.domain.request;
 
-import com.icebear2n2.userservice.domain.entity.User;
+import com.icebear2n2.userservice.domain.entity.user.User;
 import com.icebear2n2.userservice.domain.entity.UserAddress;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.icebear2n2.userservice.domain.entity;
+package com.icebear2n2.userservice.domain.entity.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

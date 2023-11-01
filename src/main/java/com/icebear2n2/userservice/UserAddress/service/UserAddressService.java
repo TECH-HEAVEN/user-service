@@ -1,6 +1,6 @@
 package com.icebear2n2.userservice.UserAddress.service;
 
-import com.icebear2n2.userservice.domain.entity.User;
+import com.icebear2n2.userservice.domain.entity.user.User;
 import com.icebear2n2.userservice.domain.entity.UserAddress;
 import com.icebear2n2.userservice.domain.repository.UserAddressRepository;
 import com.icebear2n2.userservice.domain.repository.UserRepository;

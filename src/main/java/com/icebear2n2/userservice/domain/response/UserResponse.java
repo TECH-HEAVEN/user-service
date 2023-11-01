@@ -1,7 +1,7 @@
 package com.icebear2n2.userservice.domain.response;
 
-import com.icebear2n2.userservice.domain.entity.Role;
-import com.icebear2n2.userservice.domain.entity.User;
+import com.icebear2n2.userservice.domain.entity.user.Role;
+import com.icebear2n2.userservice.domain.entity.user.User;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
